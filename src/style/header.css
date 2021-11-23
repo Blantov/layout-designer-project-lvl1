@@ -4,18 +4,18 @@ body{
 }
 .header{
 background-image: url(/img/fone.png);
-position: absolute;
-width: 1440px;
-height: 914px;
-left: 0px;
-top: 0px;
+
+}
+.header::before{
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 90%;
 }
 .header-h1{
-position: absolute;
-width: 1138px;
-height: 258px;
-left: 165px;
-top: 100px;
+position: relative;
+height: 525px;
+top: 22px;
+right: -270px;
 }
 .header-img{
 position: absolute;
@@ -71,6 +71,8 @@ height: 49px;
 left: 735px;
 top: 765px;
 border-style: none;
+text-decoration: none;
+font-weight: bold;
 /* Primary */
 
 background: #FE8A02;
