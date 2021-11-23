@@ -1,10 +1,12 @@
 body{
+    display: grid;
+    grid-template-rows: repeat(9, 914px);
     max-width: 1110px;
     align-content: center;
 }
 .header{
 background-image: url(/img/fone.png);
-
+background-color: #D7CCC0;
 }
 .header::before{
 background-repeat: no-repeat;
