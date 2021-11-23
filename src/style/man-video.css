@@ -2,6 +2,10 @@
     margin-top: 100px;
     width: 1440px;
     height: 914px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
 }
 .main-video-h1{
 font-family: Neucha;
@@ -9,14 +13,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 60px;
 line-height: 72px;
-/* or 120% */
-
-display: flex;
-align-items: flex-end;
 text-align: center;
-
 /* Text */
-
 color: #2A2626;
 }
 .main-video-h1-span{
@@ -25,10 +23,34 @@ font-style: normal;
 font-weight: normal;
 font-size: 60px;
 line-height: 72px;
-/* or 120% */
-display: flex;
-align-items: flex-end;
 text-align: center;
 /* Primary */
 color: #FE8A02;
+}
+.main-video-span{
+/* Text */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+display: block;
+text-align: center;
+/* Bootstrap / Dark */
+color: #212529;
+}
+.rect{
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 0px;
+top: 814px;
+/* Primary Dark */
+top: 1759px;
+background: #42413C;
+z-index: -1;
+}
+.video{
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
