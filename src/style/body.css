@@ -6,6 +6,21 @@ body{
     font-size: 16px;
     line-height: 1.6em;
     font-family: 'Neucha' sans-serif;
+    background-color: #fff;
+    align-content: center;
+    display: grid;
+    width: 1440px;
+    grid-template-rows: 1fr auto 0.5fr;
+    
+}
+h1,
+h2,
+h3{
+    line-height: 1.2em;
+}
+main{
+    display: grid;
+    grid-template-rows: ;
 }
 h1{
     font-size: 72px;
@@ -15,4 +30,32 @@ h2{
 }
 h3{
     font-size: 34px;
+}
+.header{
+    background:#f5f4f0;
+    height: 914px;
+    max-width: 1440px;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+}
+.back{
+    position: absolute;
+    overflow: hidden;
+}
+.center{
+    max-width: 1110px;
+    margin:0 auto ;
+}
+.header-span-1,
+.header-span-2{
+    color: #2A2626;
+    width: 540px;
+    grid-row-start: 7;
+}
+.ferstimg{
+    position: absolute;
+    left: 461px;
+}
+.btn-warning{
+    border-style: none;
 }
