@@ -18,10 +18,6 @@ h2,
 h3{
     line-height: 1.2em;
 }
-main{
-    display: grid;
-    grid-template-rows: ;
-}
 h1{
     font-size: 72px;
 }
@@ -35,8 +31,6 @@ h3{
     background:#f5f4f0;
     height: 914px;
     max-width: 1440px;
-    display: grid;
-    grid-template-rows: repeat(12, 1fr);
 }
 .back{
     position: absolute;
@@ -45,12 +39,8 @@ h3{
 .center{
     max-width: 1110px;
     margin:0 auto ;
-}
-.header-span-1,
-.header-span-2{
-    color: #2A2626;
-    width: 540px;
-    grid-row-start: 7;
+    height: 914px;
+    position: relative;
 }
 .ferstimg{
     position: absolute;
@@ -58,4 +48,14 @@ h3{
 }
 .btn-warning{
     border-style: none;
+}
+.header-1{
+    width: 540px;
+    position: absolute;
+    bottom: 230px;
+}
+.header-2{
+    width: 540px;
+    position: absolute;
+    bottom: 189px;
 }
