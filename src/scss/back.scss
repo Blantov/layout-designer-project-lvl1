@@ -1,0 +1,22 @@
+$white: #fff;
+$opasity-white: #d7ccc0;
+$light: #f5f4f0;
+$main: #fe8a02;
+$main-dark: #42413c;
+$dark: #2a2626;
+$opasity-dark: #908d8b;
+$bored: #b09a81;
+$blue: #1085c5;
+
+body{
+    color: $white;
+    width: 1110px;
+    align-content: center;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr) 0.5fr;
+}
+h1,
+h2,
+h3{
+    line-height: 1.2em;
+}
