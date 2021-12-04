@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Neucha';
+    src: url(../fonts/Neucha-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+body{
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: 'Neucha' sans-serif;
+    background-color: #fff;
+    align-content: center;
+    display: grid;
+    width: 1440px;
+    grid-template-rows: 1fr auto 0.5fr;  
+    margin: 0; 
+}
+.header{
+    position: relative;
+    height: 914px;
+    background: #F5F4F0;
+}
+.header-back{
+    position: absolute;
+}
+.header-img{
+    position: absolute;
+    left: 461px;
+    top: 55px;
+}
+.center{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.span{
+    font-family: 'Neucha' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #2A2626;
+}
+.header-title-h1{
+    color: #FE8A02;
+    width: 300px;
+    margin: 0;
+}
+.h1{
+    font-family: 'Neucha' sans-serif;
+    font-size: 72px;
+    line-height: 1.2em;
+}
+.header-title-span{
+    color: #2A2626;
+    line-height: 100%;
+    margin: 0;
+}
+.header-title{
+    margin-top: 100px;
+}
+.header-span{
+    margin-top: 185px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.header-span-element{
+    white-space: pre;
+}
+.header-span-button{
+    grid-column: 2;
+    color: #fff;
+    width: 148px;
+    height: 49px;
+    background: #FE8A02;
+    font-weight: bold;
+    line-height: 1.6em;
+    border-style: none;
+    margin-top: 40px;
+}
