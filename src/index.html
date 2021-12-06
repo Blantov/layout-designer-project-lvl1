@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/style/header.css">
     <link rel="stylesheet" href="/src/style/main.css">
+    <link rel="stylesheet" href="/src/style/navigation.css">
+    <link rel="stylesheet" href="/src/style/ikea.css">
+    <link rel="stylesheet" href="/src/style/hyper.css">
     <title>layout-designer-project-lvl1 blantov</title>
 </head>
 <body>
@@ -34,8 +37,8 @@
             <button href='#' type="button" class="header-span-button">подробнее</button>
         </div>
     </header>
-    <main class="main center">
-        <div class="main-videos">
+    <main class="main ">
+        <div class="main-videos center">
             <div class="main-videos-text">
                 <span class="main-videos-span h2">Что же это такое,</span>
                 <h2 class="main-videos-h2 h2">когнитивные искажения?</h2>
@@ -46,9 +49,77 @@
                 <iframe class="main-videos-video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="main-navigation center">
+            <div id="back"></div>
+            <div class="main-navigation-grid">
+                <div class="main-navigation-element first card">
+                    <h3 class="main-navigation-element-h3">5 когнитивных искажений<br>
+                    <span class="main-navigation-element-span">о существовании которых стоит помнить</span>
+                    </h3>
+                </div>
+                <div class="main-navigation-element card">
+                    <h2 class="main-navigation-h2">1</h2>
+                    <h3 class="main-navigation-h3 ">Эффект ИКЕА</h3>
+                    <span class="main-navigation-span">Вы переоцениваете собственные <br>решения, и, как следствие, <br>недооцениваете решения других.</span>
+                </div>
+                <div class="main-navigation-element card">
+                    <h2 class="main-navigation-h2">2</h2>
+                    <h3 class="main-navigation-h3">Преждевременная оптимизация</h3>
+                    <span class="main-navigation-span">Вы оптимизируете что-то задолго до <br>того, как в этом появляется <br>необходимость.</span>
+                </div>
+                <div class="main-navigation-element card">
+                    <h2 class="main-navigation-h2">3</h2>
+                    <h3 class="main-navigation-h3">Искажение новизны</h3>
+                    <span class="main-navigation-span">Вы даёте более высокую оценку тем <br>событиям, которые произошли <br>недавно, и недооцениваете более <br>старые.</span>
+                </div>
+                <div class="main-navigation-element card">
+                    <h2 class="main-navigation-h2">4</h2>
+                    <h3 class="main-navigation-h3">Гиперболическое обесценивание</h3>
+                    <span class="main-navigation-span">Вы гонитесь за немедленной <br>маленькой выгодой и игнорируете <br>более крупную, недоступную сейчас, <br>но доступную в будущем.</span>
+                </div>
+                <div class="main-navigation-element card">
+                    <h2 class="main-navigation-h2">5</h2>
+                    <h3 class="main-navigation-h3">Ошибка планирования</h3>
+                    <span class="main-navigation-span">Неправильно рассчитывать время <br>необходимое для завершения задачи.</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-ikea">
+            <img class="main-ikea-back back" src='./img/header_svgBack.svg' alt="back">
+            <div class="main-ikea-content content center">
+                <div class="main-ikea-content-grid content-grid">
+                    <img class="main-ikea-img" src='./img/ikea.png' alt="back">
+                    <div class="main-ikea-text">
+                        <span class="main-ikea-element-span">Когнитивные искажения</span>
+                        <h2 class="main-ikea-h2">Эффект ИКЕА</h2>
+                        <span class="main-ikea-span">Вы переоцениваете собственные <br>решения, и, как следствие, <br>недооцениваете решения других.</span>
+                    </div>
+                </div>
+                <div class="main-ikea-grid grid">
+                    <div class="main-ikea-grid-row grid-row">Как проявляется</div>
+                    <div class="main-ikea-grid-col grid-col">Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать товары, которые они могут собрать сами, а не уже собранные кем-то.</div>
+                    <div class="main-ikea-grid-col grid-col">Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-hyper">
+            <img class="main-hyper-back" src='./img/header_svgBack.svg' alt="back">
+            <div class="main-hyper-content content center">
+                <div class="main-hyper-content-grid content-grid">
+                    <div class="main-hyper-text">
+                        <span class="main-hyper-element-span">Когнитивные искажения</span>
+                        <h2 class="main-hyper-h2">Преждевременная оптимизация</h2>
+                        <span class="main-hyper-span">Вы оптимизируете что-то задолго до <br>того, как в этом появляется <br>необходимость.</span>
+                    </div>
+                    <img class="main-hyper-img" src='./img/hyper.png' alt="back">
+                </div>
+                <div class="main-hyper-grid grid">
+                    <div class="main-hyper-grid-row ">Как проявляется</div>
+                    <div class="main-hyper-grid-col grid-col">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</div>
+                    <div class="main-hyper-grid-col grid-col">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</div>
+                </div>
+            </div>
+        </div>
         <div></div>
         <div></div>
         <div></div>
