@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/src/style/navigation.css">
     <link rel="stylesheet" href="/src/style/ikea.css">
     <link rel="stylesheet" href="/src/style/hyper.css">
+    <link rel="stylesheet" href="/src/style/depr.css">
+    <link rel="stylesheet" href="/src/style/footer.css">
     <title>layout-designer-project-lvl1 blantov</title>
 </head>
 <body>
@@ -120,14 +122,78 @@
                 </div>
             </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="main-novelty item-height">
+            <img class="main-ikea-back back" src='./img/header_svgBack.svg' alt="back">
+            <div class="main-ikea-content content center">
+                <div class="main-ikea-content-grid content-grid">
+                    <img class="main-ikea-img" src='./img/novelty.svg' alt="back">
+                    <div class="main-ikea-text">
+                        <span class="main-ikea-element-span">Когнитивные искажения</span>
+                        <h2 class="main-ikea-h2">Искажение новизны</h2>
+                        <span class="main-ikea-span">Вы даёте более высокую оценку тем <br>событиям, которые произошли <br>недавно, и недооцениваете более <br>старые.</span>
+                    </div>
+                </div>
+                <div class="main-ikea-grid grid">
+                    <div class="main-ikea-grid-row grid-row">Как проявляется</div>
+                    <div class="main-ikea-grid-col grid-col">Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</div>
+                    <div class="main-ikea-grid-col grid-col">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-depr main-padding">
+            <img class="main-hyper-back" src='./img/header_svgBack.svg' alt="back">
+            <div class="main-hyper-content content center">
+                <div class="main-hyper-content-grid content-grid">
+                    <div class="main-hyper-text">
+                        <span class="main-hyper-element-span">Когнитивные искажения</span>
+                        <h2 class="main-hyper-h2">Гиперболическое обесценивание</h2>
+                        <span class="main-hyper-span">Вы гонитесь за немедленной <br>маленькой выгодой и игнорируете <br>более крупную, недоступную сейчас, <br>но доступную в будущем.</span>
+                    </div>
+                    <img class="main-hyper-img" src='./img/depr.svg' alt="back">
+                </div>
+                <div class="main-hyper-grid grid">
+                    <div class="main-hyper-grid-row ">Как проявляется</div>
+                    <div class="main-hyper-grid-col grid-col">Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</div>
+                    <div class="main-hyper-grid-col grid-col">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</div>
+                </div>
+                <div class="main-depr-rect"></div>
+            </div>
+        </div>
+        <div class="main-error">
+            <img class="main-ikea-back back" src='./img/header_svgBack.svg' alt="back">
+            <div class="main-ikea-content content center">
+                <div class="main-ikea-content-grid content-grid">
+                    <img class="main-ikea-img" src='./img/error.svg' alt="back">
+                    <div class="main-ikea-text">
+                        <span class="main-ikea-element-span">Когнитивные искажения</span>
+                        <h2 class="main-ikea-h2">Ошибка планирования</h2>
+                        <span class="main-ikea-span">Неправильно рассчитывать время <br>необходимое для завершения задачи.</span>
+                    </div>
+                </div>
+                <div class="main-ikea-grid grid">
+                    <div class="main-ikea-grid-row grid-row">Как проявляется</div>
+                    <div class="main-ikea-grid-col grid-col">Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</div>
+                    <div class="main-ikea-grid-col grid-col">Это отлично выражается в старом афоризме:<br><br>Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <div >
-
+    <footer class="footer">
+        <div class='footer-main'>
+            <div class="footer-main-span">Хотите узнать больше? <br>Подпишитесь на обновления</div>
+            <div class="footer-main-input">
+                <span class="footer-main-input_span-one">Электронная почта</span>
+                <div class="input-button">
+                    <input class="input-item" type="email" placeholder='Ваша электронная почта'><button class="button_footer"><img src="./img/Vector.svg" alt="$"></button> 
+                </div>
+                <span class="footer-main-input_span-two">Подписываясь, вы принимаете правила сервиса</span>
+            </div>
         </div>  
+        <div class="footer-second">
+            <span>© 2020 Константин Константинопольский</span>
+            <span>По материалам статьи Yash Ranadive Cognitive Biases in Programming</span>
+            <span>Курсы программирования Hexlet</span>
+        </div>
     </footer>
 </body>
 </html>
