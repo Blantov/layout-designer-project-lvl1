@@ -1,5 +1,6 @@
 footer{
     width: 1440px;
+    margin-top: 40px;
     height: 511px;
     position: relative;
     display: grid;
