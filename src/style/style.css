@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Neucha-Regular";
+    src: url("/fonts/Neucha-Regular.ttf") format("truetype"),
+        local("/fonts/Neaucha-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype"),
+        local("/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OpenSans-VariableFont";
+    src: url("/fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype"),
+        local("/fonts/OpenSans-VariableFont_wdth\,wght.ttfss") format("truetype");
+}
+:root {
+    --White:#fff;
+    --Opacity-White:#d7ccc0 ;
+    --light:#f5f4f0;
+    --Base:#fe8a02;
+    --Base-Dark:#42413c;
+    --Dark:#2a2626;
+    --Opacity-Dark:#908d8b;
+    --Brown:#b09a81;
+    --Blue:#1085c5;
+}
+body{
+    font-family: "OpenSans-VariableFont" sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+}
+.Neucha{
+    font-family:"Neucha-Regular" sans-serif;
+    line-height: 1.2em;
+}
+.Neucha-h1{
+    font-family:"Neucha-Regular" sans-serif;
+    line-height: 1.2em;
+    font-size: 72px;
+}
+.Neucha-h2{
+    font-family:"Neucha-Regular" sans-serif;
+    line-height: 1.2em;
+    font-size: 60px;
+}
+.Neucha-h3{
+    font-family:"Neucha-Regular" sans-serif;
+    line-height: 1.2em;
+    font-size: 34px;
+}
