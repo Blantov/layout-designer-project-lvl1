@@ -13,6 +13,7 @@
     margin: 0 auto;
 }
 .img-section-header{
+    overflow: hidden;
     position: absolute;
     height: 525px;
     width: 1082.81px;
@@ -32,7 +33,7 @@
     column-gap: 30px;
 }
 .header-second{
-
+    
 }
 .header-second-btn{
     margin-top: 40px;
@@ -49,6 +50,6 @@
 }
 .header-second-span_Two{
     display: grid;
-    grid-template-rows:  auto 1fr;
+    grid-template-rows: auto 1fr;
    width: 540px;
 }
