@@ -1,0 +1,41 @@
+.header{
+    display: grid;
+    max-height: 914px;
+    grid-template-rows: 543px 371px;
+}
+.content{
+    max-width:1110px;
+    margin: 0 auto;
+}
+.header-main{
+    width: 1110px;
+    margin: 0 auto;
+}
+.img-section-header{
+    position: absolute;
+    height: 525px;
+    width: 1082.81px;
+    top: 55px;
+    right: -103.81px;
+    z-index: -1;
+}
+.btn{
+    border-style: none;
+    background-color: var(--Base);
+    color: var(--White);
+    font-variant: small-caps;
+}
+.grid-span{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+.header-second-btn{
+    margin-top: 40px;
+    width: 148px;
+    height: 49px;
+}
+.header-second-span_Two{
+    display: flex;
+    flex-wrap: wrap;
+}

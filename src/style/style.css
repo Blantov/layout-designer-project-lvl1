@@ -24,28 +24,52 @@
     --Brown:#b09a81;
     --Blue:#1085c5;
 }
-body{
+html{
+    max-width: 1440px;
     font-family: "OpenSans-VariableFont" sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     color: #2A2626;
 }
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
 .Neucha{
     font-family:"Neucha-Regular" sans-serif;
     line-height: 1.2em;
+    margin: 0;
+}
+.yellow{
+    color: var(--Base);
 }
 .Neucha-h1{
     font-family:"Neucha-Regular" sans-serif;
     line-height: 1.2em;
     font-size: 72px;
+    margin: 0;
 }
 .Neucha-h2{
     font-family:"Neucha-Regular" sans-serif;
     line-height: 1.2em;
     font-size: 60px;
+    margin: 0;
 }
 .Neucha-h3{
     font-family:"Neucha-Regular" sans-serif;
     line-height: 1.2em;
     font-size: 34px;
+    margin: 0;  
+}
+.background{
+    position: absolute;
+    z-index: -2;
+    background:var(--light);
+}
+.classicMarg{
+    margin-top: 100px;
+}
+.classicPadd{
+    padding-top: 100px;
 }
